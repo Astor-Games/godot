@@ -4374,6 +4374,9 @@ bool Tree::edit_selected(bool p_force_edit) {
 		// `floor()` centers vertically.
 		Vector2 ofs(0, Math::floor((MAX(line_editor->get_minimum_size().height, rect.size.height - value_editor_height) - rect.size.height) / 2));
 
+		popup_rect.position = get_screen_position() + rect.position - ofs;
+		popup_rect.size = rect.size;
+
 		// Account for icon.
 		real_t icon_ofs = 0;
 		if (c.icon.is_valid()) {
