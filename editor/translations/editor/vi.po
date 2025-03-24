@@ -2038,6 +2038,15 @@ msgstr ""
 "Hàm này không cần đối tượng để có thể gọi.\n"
 "Nó có thể gọi trực tiếp bằng tên của lớp."
 
+msgid "Finalizing Asset Import..."
+msgstr "Hoàn tất nhập tài sản ..."
+
+msgid "Executing post-reimport operations..."
+msgstr "Thực hiện các hoạt động sau khi nhập lại..."
+
+msgid "This method supports a variable number of arguments."
+msgstr "Phương pháp này hỗ trợ số lượng đối số khác nhau."
+
 msgid "This value is an integer composed as a bitmask of the following flags."
 msgstr ""
 "Giá trị này là một số nguyên được tính như là bitmask của những flags sau."

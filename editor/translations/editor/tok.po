@@ -1810,6 +1810,18 @@ msgstr "mi pali sin ala e lipu lon nasin \"%s\" kepeken toki ilo %d."
 msgid "Running on %s"
 msgstr "mi kepeken lon %s"
 
+msgid "Can't open file for writing at path \"%s\"."
+msgstr "mi ken ala open e lipu tawa sitelen lon nasin \"%s\"."
+
+msgid "Can't open file for reading-writing at path \"%s\"."
+msgstr "mi ken ala open e lipu tawa lukin-sitelen lon nasin \"%s\"."
+
+msgid "Can't open file to read from path \"%s\"."
+msgstr "mi ken ala open e lipu tawa lukin lon nasin \"%s\"."
+
+msgid "Save ZIP"
+msgstr "o kama awen e lipu ZIP"
+
 msgid "GDExtension"
 msgstr "GDExtension"
 
@@ -4255,6 +4267,12 @@ msgstr "o alasa..."
 
 msgid "Searching..."
 msgstr "mi alasa..."
+
+msgid "Editable Children"
+msgstr "kili pi ken ante"
+
+msgid "Add Child Node..."
+msgstr "o pana e ijo pali kili..."
 
 msgid "Path is empty."
 msgstr "nasin li jo ala."

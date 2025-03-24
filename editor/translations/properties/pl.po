@@ -4897,6 +4897,24 @@ msgstr "Użytkownik wydania"
 msgid "Release Password"
 msgstr "Hasło wydania"
 
+msgid "Architectures"
+msgstr "Architektury"
+
+msgid "Keystore"
+msgstr "Keystore"
+
+msgid "Debug User"
+msgstr "Użytkownik debugowy"
+
+msgid "Debug Password"
+msgstr "Hasło debugowe"
+
+msgid "Release User"
+msgstr "Użytkownik wydania"
+
+msgid "Release Password"
+msgstr "Hasło wydania"
+
 msgid "Code"
 msgstr "Kod"
 
@@ -5026,6 +5044,12 @@ msgstr "Ustawienia 58 X 58"
 msgid "Settings 87 X 87"
 msgstr "Ustawienia 87 X 87"
 
+msgid "Settings 58 X 58"
+msgstr "Ustawienia 58 X 58"
+
+msgid "Settings 87 X 87"
+msgstr "Ustawienia 87 X 87"
+
 msgid "Notification 40 X 40"
 msgstr "Notifikacja 40 X 40"
 
@@ -5067,6 +5091,156 @@ msgstr "iOS 136 X 136"
 
 msgid "App Store 1024 X 1024"
 msgstr "App Store 1024 X 1024"
+
+msgid "Architecture"
+msgstr "Architektura"
+
+msgid "SSH Remote Deploy"
+msgstr "Zdalne wdrażanie po SSH"
+
+msgid "Extra Args SSH"
+msgstr "Dodatkowe argumenty SSH"
+
+msgid "Extra Args SCP"
+msgstr "Dodatkowe argumenty SCP"
+
+msgid "Run Script"
+msgstr "Skrypt uruchomienia"
+
+msgid "Cleanup Script"
+msgstr "Skrypt czyszczenia"
+
+msgid "macOS"
+msgstr "macOS"
+
+msgid "rcodesign"
+msgstr "rcodesign"
+
+msgid "Distribution Type"
+msgstr "Typ dystrybucji"
+
+msgid "Copyright Localized"
+msgstr "Lokalizowane prawa autorskie"
+
+msgid "Min macOS Version x86 64"
+msgstr "Min. wersja macOS x86 64"
+
+msgid "Min macOS Version arm64"
+msgstr "Min. wersja macOS arm64"
+
+msgid "Export Angle"
+msgstr "Eksportuj Angle"
+
+msgid "High Res"
+msgstr "Wysoka rozdzielczość"
+
+msgid "Xcode"
+msgstr "Xcode"
+
+msgid "Platform Build"
+msgstr "Kompilacja platformy"
+
+msgid "SDK Version"
+msgstr "Wersja SDK"
+
+msgid "SDK Build"
+msgstr "Kompilacja SDK"
+
+msgid "SDK Name"
+msgstr "Nazwa SDK"
+
+msgid "Xcode Version"
+msgstr "Wersja Xcode"
+
+msgid "Xcode Build"
+msgstr "Kompilacja Xcode"
+
+msgid "Codesign"
+msgstr "Podpisywanie kodu"
+
+msgid "Installer Identity"
+msgstr "Tożsamość instalatora"
+
+msgid "Apple Team ID"
+msgstr "ID zespołu Apple"
+
+msgid "Identity"
+msgstr "Tożsamość"
+
+msgid "Certificate File"
+msgstr "Plik certyfikatu"
+
+msgid "Certificate Password"
+msgstr "Hasło certyfikatu"
+
+msgid "Performance Gaming Tier"
+msgstr "Wydajność gamingowa"
+
+msgid "Performance A 12"
+msgstr "Wydajność A12"
+
+msgid "User Data"
+msgstr "Dane użytkownika"
+
+msgid "Accessible From Files App"
+msgstr "Dostępne z apki Files"
+
+msgid "Accessible From iTunes Sharing"
+msgstr "Dostępne z udostępniania iTunes"
+
+msgid "Privacy"
+msgstr "Prywatność"
+
+msgid "Camera Usage Description"
+msgstr "Opis użycia aparatu"
+
+msgid "Camera Usage Description Localized"
+msgstr "Lokalizowany opis użycia aparatu"
+
+msgid "Microphone Usage Description"
+msgstr "Opis użycia mikrofonu"
+
+msgid "Microphone Usage Description Localized"
+msgstr "Lokalizowany opis użycia mikrofonu"
+
+msgid "Photolibrary Usage Description"
+msgstr "Opis użycia biblioteki zdjęć"
+
+msgid "Photolibrary Usage Description Localized"
+msgstr "Lokalizowany opis użycia biblioteki zdjęć"
+
+msgid "Tracking Enabled"
+msgstr "Włączone śledzenie"
+
+msgid "Tracking Domains"
+msgstr "Domeny śledzenia"
+
+msgid "Icon 1024 X 1024"
+msgstr "Ikona 1024 X 1024"
+
+msgid "Icon 1024 X 1024 Dark"
+msgstr "Ikona 1024 X 1024 ciemna"
+
+msgid "Icon 1024 X 1024 Tinted"
+msgstr "Ikona 1024 X 1024 barwiona"
+
+msgid "Storyboard"
+msgstr "Storyboard"
+
+msgid "Image Scale Mode"
+msgstr "Tryb skalowania obrazu"
+
+msgid "Custom Image @2x"
+msgstr "Niestandardowy obraz @2x"
+
+msgid "Custom Image @3x"
+msgstr "Niestandardowy obraz @3x"
+
+msgid "Use Custom BG Color"
+msgstr "Użył własnego koloru tła"
+
+msgid "Custom BG Color"
+msgstr "Własny kolor tła"
 
 msgid "Architecture"
 msgstr "Architektura"

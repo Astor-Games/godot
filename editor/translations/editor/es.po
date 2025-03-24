@@ -19790,13 +19790,13 @@ msgid "Resources Modification"
 msgstr "Modificación de Recursos"
 
 msgid "Icon size \"%d\" is missing."
-msgstr "Falta el tamaño del icono \"%d\"."
+msgstr "Falta el tamaño del ícono \"%d\"."
 
 msgid "Failed to rename temporary file \"%s\"."
 msgstr "Fallo al renombrar el archivo temporal \"%s\"."
 
 msgid "Invalid icon path."
-msgstr "Ruta de icono inválida."
+msgstr "Ruta de ícono inválida."
 
 msgid "Invalid file version."
 msgstr "Versión de archivo inválida."
@@ -19805,7 +19805,7 @@ msgid "Invalid product version."
 msgstr "Versión de producto inválida."
 
 msgid "Invalid icon file \"%s\"."
-msgstr "Archivo de icono \"%s\" inválido."
+msgstr "Archivo de ícono \"%s\" inválido."
 
 msgid "Could not find signtool executable at \"%s\"."
 msgstr "No se pudo encontrar el ejecutable de signtool en \"%s\"."

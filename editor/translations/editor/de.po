@@ -4785,6 +4785,15 @@ msgstr ""
 "Exportprofil aktiviert sein muss, um Gradle-Builds anstelle vorgefertigter "
 "APKs zu nutzen."
 
+msgid ""
+"The Android build template is already installed in this project and it won't "
+"be overwritten.\n"
+"Remove the \"%s\" directory manually before attempting this operation again."
+msgstr ""
+"Die Android-Build-Vorlage ist bereits in diesem Projekt installiert und wird "
+"nicht überschrieben.  \n"
+"Lösche das Verzeichnis „%s“ manuell, bevor du diesen Vorgang erneut ausführst."
+
 msgid "Unnamed Project"
 msgstr "Unbenanntes Projekt"
 
@@ -20864,6 +20873,9 @@ msgstr "Einen Ausdruck als eine Farbe ausführen."
 
 msgid "Load existing color palette."
 msgstr "Existierende Farbpalette laden."
+
+msgid "Quick Load"
+msgstr "Schnelles Laden"
 
 msgid "Switch between hexadecimal and code values."
 msgstr "Wechselt zwischen Hexadezimal- und Codewerten."

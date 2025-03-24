@@ -4834,6 +4834,27 @@ msgstr ""
 "APK-файлов необходимо включить опцию «Использовать сборку Gradle» в "
 "предустановке экспорта Android."
 
+msgid ""
+"The Android build template is already installed in this project and it won't "
+"be overwritten.\n"
+"Remove the \"%s\" directory manually before attempting this operation again."
+msgstr ""
+"Шаблон сборки Android уже установлен в этом проекте и не будет перезаписан.\n"
+"Перед повторной попыткой выполнить эту операцию вручную удалите каталог "
+"\"%s\"."
+
+msgid ""
+"This will set up your project for gradle Android builds by installing the "
+"source template to \"%s\".\n"
+"Note that in order to make gradle builds instead of using pre-built APKs, the "
+"\"Use Gradle Build\" option should be enabled in the Android export preset."
+msgstr ""
+"Это настроит ваш проект для сборок Android Gradle путем установки исходного "
+"шаблона в \"%s\".\n"
+"Обратите внимание: для создания сборок Gradle вместо использования готовых "
+"APK-файлов необходимо включить опцию «Использовать сборку Gradle» в "
+"предустановке экспорта Android."
+
 msgid "Unnamed Project"
 msgstr "Безымянный проект"
 
@@ -21675,13 +21696,13 @@ msgid "Expected a '%s'."
 msgstr "Ожидалось »%s»."
 
 msgid "Expected a '%s' or '%s'."
-msgstr "Ожидалось «%s» или «%s»."
+msgstr "Ожидалось '%s' или '%s'."
 
 msgid "Expected a '%s' after '%s'."
-msgstr "Ожидалось «%s» после «%s»."
+msgstr "Ожидалось '%s' после '%s'."
 
 msgid "Redefinition of '%s'."
-msgstr "Переопределение «%s»."
+msgstr "Переопределение '%s'."
 
 msgid "Unknown directive."
 msgstr "Неизвестная директива."
@@ -21769,22 +21790,22 @@ msgstr ""
 "0.0001' для выполнения приблизительного, но предсказуемого сравнения."
 
 msgid "The const '%s' is declared but never used."
-msgstr "Константа «%s» объявлена, но не используется."
+msgstr "Константа '%s' объявлена, но не используется."
 
 msgid "The function '%s' is declared but never used."
-msgstr "Функция «%s» объявлена, но не используется."
+msgstr "Функция '%s' объявлена, но не используется."
 
 msgid "The struct '%s' is declared but never used."
-msgstr "Структура «%s» объявлена, но не используется."
+msgstr "Структура '%s' объявлена, но не используется."
 
 msgid "The uniform '%s' is declared but never used."
-msgstr "Униформа «%s» объявлена, но не используется."
+msgstr "Униформа '%s' объявлена, но не используется."
 
 msgid "The varying '%s' is declared but never used."
-msgstr "Вариация «%s» объявлена, но не используется."
+msgstr "Вариация '%s' объявлена, но не используется."
 
 msgid "The local variable '%s' is declared but never used."
-msgstr "Локальная переменная «%s» объявлена, но не используется."
+msgstr "Локальная переменная '%s' объявлена, но не используется."
 
 msgid ""
 "The total size of the %s for this shader on this device has been exceeded (%d/"

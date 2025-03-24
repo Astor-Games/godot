@@ -1766,6 +1766,9 @@ msgstr "propriété « %s »"
 msgid "Nearest FPS: %d"
 msgstr "FPS le plus proche : %d"
 
+msgid "Nearest FPS: %d"
+msgstr "FPS le plus proche : %d"
+
 msgid "Change Animation Step"
 msgstr "Modifier l’étape d’animation"
 
@@ -3587,6 +3590,9 @@ msgstr ""
 "Cette variable peut être modifiée ou supprimée dans les versions futures."
 
 msgid "Text File"
+msgstr "Fichier texte"
+
+msgid "TextFile"
 msgstr "Fichier texte"
 
 msgid "File"

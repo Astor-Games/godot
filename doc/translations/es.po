@@ -7068,6 +7068,9 @@ msgid "Used to group properties together in the editor. See [EditorInspector]."
 msgstr ""
 "Se utiliza para agrupar propiedades en el editor. Véase [EditorInspector]."
 
+msgid "Represents the size of the [enum PropertyHint] enum."
+msgstr "Representa el tamaño del enum [enum PropertyHint]."
+
 msgid "Used to categorize properties together in the editor."
 msgstr "Se usa para categorizar las propiedades juntas en el editor."
 
@@ -103267,6 +103270,12 @@ msgstr ""
 "Las interfaces deben escribirse de forma que, con solo habilitarlas, "
 "obtengamos una configuración funcional. Puedes consultar las interfaces "
 "disponibles a través de [XRServer]."
+
+msgid "Mouth stretches."
+msgstr "Estiramientos de la boca."
+
+msgid "Mouth tightens."
+msgstr "La boca se tensa."
 
 msgid ""
 "If this is an AR interface that requires displaying a camera feed as the "
