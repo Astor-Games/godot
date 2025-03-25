@@ -4072,6 +4072,9 @@ msgstr "nimi pi ijo pali li ken ala."
 msgid "Scene Name:"
 msgstr "nimi pi ma pali:"
 
+msgid "Scene Name:"
+msgstr "nimi pi ma pali:"
+
 msgid "Root Name:"
 msgstr "open nimi:"
 

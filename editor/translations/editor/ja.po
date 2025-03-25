@@ -16860,6 +16860,9 @@ msgstr "アクションを追加します。"
 msgid "Remove action set."
 msgstr "アクションセットを除去します。"
 
+msgid "Remove binding modifier."
+msgstr "バインドを削除。"
+
 msgid "OpenXR Action Map"
 msgstr "OpenXRアクションマップ"
 

@@ -6599,6 +6599,36 @@ msgstr "Maksymalne dB"
 msgid "Emission Angle"
 msgstr "Kąt emisji"
 
+msgid "Shape Centered"
+msgstr "Kształt wyśrodkowany"
+
+msgid "Shape Visible"
+msgstr "Kształt widoczny"
+
+msgid "Passby Press"
+msgstr "Wciśnięcie przechodnie"
+
+msgid "Visibility Mode"
+msgstr "Tryb widoczności"
+
+msgid "Enabling"
+msgstr "Włączanie"
+
+msgid "Node Path"
+msgstr "Ścieżka węzła"
+
+msgid "Attenuation Model"
+msgstr "Model tłumienia"
+
+msgid "Unit Size"
+msgstr "Rozmiar jednostkowy"
+
+msgid "Max dB"
+msgstr "Maksymalne dB"
+
+msgid "Emission Angle"
+msgstr "Kąt emisji"
+
 msgid "Degrees"
 msgstr "Stopni"
 
