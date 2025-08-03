@@ -1,9 +1,9 @@
-short_name = "godot"
-name = "Godot Engine"
+short_name = "godot-turtles"
+name = "Godot Engine (Turtles Fork)"
 major = 4
 minor = 4
 patch = 1
-status = "stable"
+status = "custom"
 module_config = ""
 website = "https://godotengine.org"
 docs = "4.4"
