@@ -1,0 +1,16 @@
+{
+	"disabled_build_options": {
+		"disable_navigation_2d": true,
+		"disable_physics_2d": true,
+		"disable_xr": true,
+		"graphite": false,
+		"metal": false,
+		"module_godot_physics_2d_enabled": false,
+		"module_godot_physics_3d_enabled": false,
+		"module_openxr_enabled": false,
+		"opengl3": false,
+		"wayland": false
+	},
+	"disabled_classes": [ ],
+	"type": "build_profile"
+}

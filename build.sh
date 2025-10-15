@@ -48,12 +48,12 @@ for PLATFORM in "${PLATFORMS[@]}"; do
   NUGET_OUTPUT="bin/nuget"
 
   echo "=== Building Godot editor ==="
-  scons platform=$PLATFORM target=$EDITOR_TARGET module_mono_enabled=yes "${SCONS_ARGS[@]}"
+  scons platform=$PLATFORM target=$EDITOR_TARGET module_mono_enabled=yes build_profile=build_config_editor.gdbuild "${SCONS_ARGS[@]}"
 
   if [ "$BUILD_EDITOR_ONLY" = false ]; then
     echo "=== Building export templates ==="
-    scons platform=$PLATFORM target=template_debug module_mono_enabled=yes "${SCONS_ARGS[@]}"
-    scons platform=$PLATFORM target=template_release module_mono_enabled=yes "${SCONS_ARGS[@]}"
+    scons platform=$PLATFORM target=template_debug module_mono_enabled=yes build_profile=build_config.gdbuild "${SCONS_ARGS[@]}"
+    scons platform=$PLATFORM target=template_release module_mono_enabled=yes build_profile=build_config.gdbuild "${SCONS_ARGS[@]}"
   fi
 
   if [ "$PLATFORM" = "linuxbsd" ]; then
@@ -101,7 +101,7 @@ for PLATFORM in "${PLATFORMS[@]}"; do
   cd "$OUTPUT_DIR"
   tar -czf "../$PLATFORM.tar.gz" *
   )
-  
+
 
 done
 
