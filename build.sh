@@ -35,14 +35,13 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
-echo "=== Cleaning output for specified platforms ==="
-for PLATFORM in "${PLATFORMS[@]}"; do
-  echo "Cleaning bin/*${PLATFORM}*"
-  rm -rf bin/*${PLATFORM}*
-done
 
 for PLATFORM in "${PLATFORMS[@]}"; do
   echo "=== Building for platform: $PLATFORM ==="
+
+  echo "=== Cleaning previous artifacts ==="
+  find bin -type f -iname "*$PLATFORM*" -delete || true
+  find bin -type d -iname "*$PLATFORM*" -exec rm -rf {} + || true
 
   EDITOR_TARGET=editor
   GODOT_BIN="bin/godot.$PLATFORM.$EDITOR_TARGET.x86_64.mono"
@@ -98,7 +97,11 @@ for PLATFORM in "${PLATFORMS[@]}"; do
   rm -rf bin/GodotSharp bin/nuget
 
   echo "=== Packing $PLATFORM folder ==="
-  tar -czf "bin/$PLATFORM.tar.gz" -C bin "$PLATFORM"
+  (
+  cd "$OUTPUT_DIR"
+  tar -czf "../$PLATFORM.tar.gz" *
+  )
+  
 
 done
 
