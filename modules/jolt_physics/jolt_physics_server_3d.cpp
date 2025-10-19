@@ -219,7 +219,9 @@ void JoltPhysicsServer3D::space_step(RID p_space, real_t p_delta) {
 	ERR_FAIL_NULL(space);
 	ERR_FAIL_COND(space->is_stepping());
 
+	job_system->pre_step();
 	space->step(p_delta);
+	job_system->post_step();
 }
 
 void JoltPhysicsServer3D::space_flush_queries(RID p_space) {
